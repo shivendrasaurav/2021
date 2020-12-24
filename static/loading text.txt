@@ -1,0 +1,19 @@
+System Booting.....
+
+Boot Sucessfull
+
+Loading Assests
+
+Image 1 - Hero
+Image 2 - Hero_Mobile
+
+Font 1 - Apex MK2
+Font 2 - Cyberpunk
+Font 3 - Vox Round
+Font 4 - Munro
+
+Stylesheet 1 - Main
+
+Svelte 1 - Main
+Svelte 2 - App
+Svelte 3 - Hero
