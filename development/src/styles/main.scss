@@ -20,4 +20,21 @@ body{
             font-family: "Apex";
         }
     }
+    section#loader{
+        background: #fcec0c;
+        height: 100vh;
+        padding: 40px;
+
+        pre{
+            color: #005678;
+            font-family: "Munro";
+            font-size: 18px;
+
+            .same_space{
+                font-weight: bold;
+                letter-spacing: 1px;
+            }
+        }
+    }
+
 }

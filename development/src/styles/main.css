@@ -24,4 +24,21 @@ body section#hero .title {
   text-shadow: #005678 2px 6px;
   font-family: "Apex";
 }
+
+body section#loader {
+  background: #fcec0c;
+  height: 100vh;
+  padding: 40px;
+}
+
+body section#loader pre {
+  color: #005678;
+  font-family: "Munro";
+  font-size: 18px;
+}
+
+body section#loader pre .same_space {
+  font-weight: bold;
+  letter-spacing: 1px;
+}
 /*# sourceMappingURL=main.css.map */
