@@ -1,0 +1,25 @@
+@font-face {
+	font-family: 'Cyberpunk';
+	font-style: normal;
+	src: local('Cyberpunk'), url('./fonts/Cyberpunk.otf') format('otf');
+}
+
+@font-face {
+font-family: "Cyberpunk";
+src: url('./fonts/Cyberpunk.otf');
+}
+
+@font-face {
+font-family: "Apex";
+src: url('./fonts/ApexMk2.otf');
+}
+
+@font-face {
+font-family: "Vox";
+src: url('./fonts/VoxRound.eot');
+src: url('./fonts/VoxRound.eot?#iefix') format('embedded-opentype'),
+url('./fonts/VoxRound.woff') format('woff'),
+url('./fonts/VoxRound.ttf') format('truetype');
+font-weight: normal;
+font-style: normal;
+}
