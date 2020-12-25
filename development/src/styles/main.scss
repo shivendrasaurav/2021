@@ -10,7 +10,7 @@ body{
     
     h1{font-size: 10vh;}
     section#hero{
-        background: linear-gradient(45deg, #ff2a6d, #fcec0c);
+        background: red;
         height: 100vh;
 
         .title{
@@ -21,9 +21,9 @@ body{
         }
     }
     section#loader{
-        background: #fcec0c;
+        background: green;
         height: 100vh;
-        padding: 40px;
+        padding: 58px;
 
         pre{
             color: #005678;
@@ -37,4 +37,16 @@ body{
         }
     }
 
+}
+
+
+body::-webkit-scrollbar{
+    border-radius: 7px;
+    display: block;
+    height: 22px;
+    background: #fcec0c;
+}
+body::-webkit-scrollbar-thumb {
+    border-radius: 7px;
+    background: #fcec0c;
 }
