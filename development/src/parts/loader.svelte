@@ -2,7 +2,7 @@
     function hide_loading (){
         setInterval(function(){
             document.getElementById("loader").style.display="none";
-        }, 170);
+        }, 17010);
     }
 </script>
 

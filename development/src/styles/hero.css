@@ -7,7 +7,7 @@
   display: block;
   margin: auto;
   position: relative;
-  top: 16vh;
+  top: 6vh;
 }
 
 .name_wrapper:hover {
@@ -39,7 +39,7 @@
 }
 
 .project_topic_wrapper {
-  width: 16vw;
+  width: 20vw;
   padding: 5px;
   background: #01cc14;
   -webkit-clip-path: polygon(0% 0%, 100% 20%, 100% 0%, 100% 100%, 0% 100%);
@@ -47,8 +47,8 @@
   display: block;
   margin: auto;
   position: relative;
-  top: 20vh;
-  left: -60vh;
+  top: 12vh;
+  left: -40vh;
 }
 
 .project_topic_wrapper:hover {
@@ -79,7 +79,7 @@
 }
 
 .yt_topic_wrapper {
-  width: 16vw;
+  width: 20vw;
   padding: 5px;
   background: red;
   -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 0%, 85% 100%, 15% 100%);
@@ -87,7 +87,7 @@
   display: block;
   margin: auto;
   position: relative;
-  top: 22vh;
+  top: 14vh;
 }
 
 .yt_topic_wrapper:hover {
@@ -118,7 +118,7 @@
 }
 
 .res_topic_wrapper {
-  width: 16vw;
+  width: 20vw;
   padding: 5px;
   background: #78fcff;
   -webkit-clip-path: polygon(0% 20%, 100% 0%, 100% 0%, 100% 100%, 0% 100%);
@@ -126,8 +126,8 @@
   display: block;
   margin: auto;
   position: relative;
-  top: 10vh;
-  left: 60vh;
+  top: -1vh;
+  left: 40vh;
 }
 
 .res_topic_wrapper:hover {
