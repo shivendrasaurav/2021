@@ -25,6 +25,33 @@ body section#hero .title {
   font-family: "Apex";
 }
 
+body section#hero .social_wrapper {
+  width: 326px;
+  position: relative;
+  top: 40vh;
+  display: block;
+  margin: auto;
+}
+
+body section#hero .social_wrapper img {
+  width: 50px;
+  border-radius: 4px;
+  -webkit-box-shadow: 3px 3px 8px #acacacac;
+          box-shadow: 3px 3px 8px #acacacac;
+  -webkit-transition: 300ms;
+  transition: 300ms;
+  margin: 0 6px;
+  background: #fcfcfc;
+  padding: 2px;
+}
+
+body section#hero .social_wrapper img:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: 300ms;
+  transition: 300ms;
+}
+
 body section#loader {
   height: 100vh;
   padding: 58px;
@@ -51,11 +78,5 @@ body::-webkit-scrollbar {
 body::-webkit-scrollbar-thumb {
   border-radius: 7px;
   background: #fcec0c;
-}
-
-@media (prefers-color-scheme: dark) {
-  section#hero {
-    background: #0e1e1e;
-  }
 }
 /*# sourceMappingURL=main.css.map */

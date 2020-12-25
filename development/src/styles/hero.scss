@@ -13,7 +13,7 @@
     }
 }
 .name{
-    font-size: 8vh;
+    font-size: 7vh;
     font-family: "Cyberpunk";            
     color: #05d9e8;
     background: #fcec0c;
@@ -25,6 +25,7 @@
     transition: 300ms;
 
     &:hover{
+        font-size: 8vh;
         background: #05d9e8;
         color: #005678;
         text-shadow: #fcfcfc 1px 4px;

@@ -20,6 +20,28 @@ body{
             font-family: "Apex";
         }
 
+        .social_wrapper{
+            width: 326px;
+            position: relative;
+            top: 40vh;
+            display: block;
+            margin: auto;
+
+            img{
+                width: 50px;
+                border-radius: 4px;
+                box-shadow: 3px 3px 8px #acacacac;
+                transition: 300ms;
+                margin: 0 6px;
+                background: #fcfcfc;
+                padding: 2px;
+
+                &:hover{
+                    transform: scale(1.1);
+                    transition: 300ms;
+                }
+            }
+        }
     }
     section#loader{
         height: 100vh;
@@ -53,9 +75,3 @@ body::-webkit-scrollbar-thumb {
 }
 
 
-
-@media (prefers-color-scheme: dark){
-    section#hero{
-        background: #0e1e1e;
-    }
-}
