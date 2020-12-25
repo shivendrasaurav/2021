@@ -1,7 +1,7 @@
 <section id="loader">
     <!-- svelte-ignore a11y-media-has-caption -->
 	<video class="loading_video"
-		poster="https://sveltejs.github.io/assets/caminandes-llamigos.jpg"
+		poster="https://raw.githubusercontent.com/shivendrasaurav/2021/main/development/src/parts/Canvas_Blank.png"
 		src="https://raw.githubusercontent.com/shivendrasaurav/2021/main/development/src/parts/PLA.mp4" format="mp4" autoplay>
 			<track kind="captions"/>
     </video>
