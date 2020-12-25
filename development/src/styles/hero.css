@@ -1,0 +1,158 @@
+.name_wrapper {
+  width: 52%;
+  padding: 5px;
+  background: #05d9e8;
+  -webkit-clip-path: polygon(10% 10%, 100% 0, 100% 70%, 92% 100%, 0% 100%);
+          clip-path: polygon(10% 10%, 100% 0, 100% 70%, 92% 100%, 0% 100%);
+  display: block;
+  margin: auto;
+  position: relative;
+  top: 16vh;
+}
+
+.name_wrapper:hover {
+  background: #005678;
+}
+
+.name {
+  font-size: 8vh;
+  font-family: "Cyberpunk";
+  color: #05d9e8;
+  background: #fcec0c;
+  text-shadow: #005678 1px 4px;
+  width: 100%;
+  text-align: center;
+  padding: 24px 0px;
+  -webkit-clip-path: polygon(10% 10%, 100% 0, 100% 70%, 92% 100%, 0% 100%);
+          clip-path: polygon(10% 10%, 100% 0, 100% 70%, 92% 100%, 0% 100%);
+  -webkit-transition: 300ms;
+  transition: 300ms;
+}
+
+.name:hover {
+  background: #05d9e8;
+  color: #005678;
+  text-shadow: #fcfcfc 1px 4px;
+  -webkit-transition: 300ms;
+  transition: 300ms;
+}
+
+.project_topic_wrapper {
+  width: 16vw;
+  padding: 5px;
+  background: #01cc14;
+  -webkit-clip-path: polygon(0% 0%, 100% 20%, 100% 0%, 100% 100%, 0% 100%);
+          clip-path: polygon(0% 0%, 100% 20%, 100% 0%, 100% 100%, 0% 100%);
+  display: block;
+  margin: auto;
+  position: relative;
+  top: 20vh;
+  left: -60vh;
+}
+
+.project_topic_wrapper:hover {
+  background: #fcfcfc;
+}
+
+.project_topic {
+  font-size: 4vh;
+  font-family: "Cyberpunk";
+  color: #01cc14;
+  background: #fcec0c;
+  text-shadow: #fcfcfc 1px 4px;
+  width: 100%;
+  text-align: center;
+  padding: 24px 0px;
+  -webkit-clip-path: polygon(0% 0%, 100% 20%, 100% 0%, 100% 100%, 0% 100%);
+          clip-path: polygon(0% 0%, 100% 20%, 100% 0%, 100% 100%, 0% 100%);
+  -webkit-transition: 300ms;
+  transition: 300ms;
+}
+
+.project_topic:hover {
+  background: #01cc14;
+  color: #fcfcfc;
+  text-shadow: #005678 1px 4px;
+  -webkit-transition: 300ms;
+  transition: 300ms;
+}
+
+.yt_topic_wrapper {
+  width: 16vw;
+  padding: 5px;
+  background: red;
+  -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 0%, 85% 100%, 15% 100%);
+          clip-path: polygon(0% 0%, 100% 0%, 100% 0%, 85% 100%, 15% 100%);
+  display: block;
+  margin: auto;
+  position: relative;
+  top: 22vh;
+}
+
+.yt_topic_wrapper:hover {
+  background: #fcfcfc;
+}
+
+.yt_topic {
+  font-size: 4vh;
+  font-family: "Cyberpunk";
+  color: red;
+  background: #fcec0c;
+  text-shadow: #fcfcfc 1px 4px;
+  width: 100%;
+  text-align: center;
+  padding: 24px 0px;
+  -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 0%, 85% 100%, 15% 100%);
+          clip-path: polygon(0% 0%, 100% 0%, 100% 0%, 85% 100%, 15% 100%);
+  -webkit-transition: 300ms;
+  transition: 300ms;
+}
+
+.yt_topic:hover {
+  background: red;
+  color: #fcfcfc;
+  text-shadow: #005678 1px 4px;
+  -webkit-transition: 300ms;
+  transition: 300ms;
+}
+
+.res_topic_wrapper {
+  width: 16vw;
+  padding: 5px;
+  background: #78fcff;
+  -webkit-clip-path: polygon(0% 20%, 100% 0%, 100% 0%, 100% 100%, 0% 100%);
+          clip-path: polygon(0% 20%, 100% 0%, 100% 0%, 100% 100%, 0% 100%);
+  display: block;
+  margin: auto;
+  position: relative;
+  top: 10vh;
+  left: 60vh;
+}
+
+.res_topic_wrapper:hover {
+  background: #fcfcfc;
+}
+
+.res_topic {
+  font-size: 4vh;
+  font-family: "Cyberpunk";
+  color: #005678;
+  background: #fcec0c;
+  text-shadow: #fcfcfc 1px 4px;
+  width: 100%;
+  text-align: center;
+  padding: 24px 0px;
+  -webkit-clip-path: polygon(0% 20%, 100% 0%, 100% 0%, 100% 100%, 0% 100%);
+          clip-path: polygon(0% 20%, 100% 0%, 100% 0%, 100% 100%, 0% 100%);
+  -webkit-transition: 300ms;
+  transition: 300ms;
+}
+
+.res_topic:hover {
+  background: #78fcff;
+  color: #fcfcfc;
+  text-shadow: #005678 1px 4px;
+  -webkit-transition: 300ms;
+  transition: 300ms;
+}
+/*# sourceMappingURL=hero.css.map */
