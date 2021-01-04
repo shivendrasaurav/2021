@@ -41,11 +41,13 @@
         </div>
     </div>
 
-    <div class="yt_topic_wrapper" on:mouseover={change_cmd_text_3} on:mouseleave={default_text}>
-        <div class="yt_topic">
-            YouTube
+    <a target="blank" class="herolink" href="https://www.youtube.com/channel/UCnEIkvnbpbQyetPk_K9QNQg?confirm_subscribe=1">
+        <div class="yt_topic_wrapper" on:mouseover={change_cmd_text_3} on:mouseleave={default_text}>
+            <div class="yt_topic">
+                YouTube
+            </div>
         </div>
-    </div>
+    </a>
 
     <div class="social_wrapper">
 
@@ -58,3 +60,5 @@
 
     </div>
 </section>
+
+<!--https://github.com/EmilTholin/svelte-routing-->
