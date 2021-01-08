@@ -16,7 +16,8 @@ body h1 {
 
 body section#hero {
   width: 100%;
-  background: #fcec0c;
+  padding-left: 20%;
+  background: url("../parts/MAYBE_FINAL.png");
   height: 100vh;
 }
 
