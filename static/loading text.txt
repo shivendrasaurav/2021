@@ -1,19 +1,34 @@
-System Booting.....
-
-Boot Sucessfull
+System Booting...
 
 Loading Assests
 
 Image 1 - Hero
-Image 2 - Hero_Mobile
+Image 2 - Corona Rakshak
+Image 3 - Hisab Kitab
+Image 4 - Baat
+Image 5 - REVA HACK </> 2020 App
+
 
 Font 1 - Apex MK2
 Font 2 - Cyberpunk
 Font 3 - Vox Round
 Font 4 - Munro
 
-Stylesheet 1 - Main
+Stylesheet 1 - App
+Stylesheet 2 - Bundle
+Stylesheet 3 - Global
 
-Svelte 1 - Main
-Svelte 2 - App
-Svelte 3 - Hero
+React 1 - Index
+React 2 - App
+
+Component 1 - Hero
+Component 2 - Socials
+Component 3 - Projects
+Component 4 - Skill Tree
+
+Assets Loaded Sucessfully
+
+Boot Sucessfull
+
+Starting Now
+
