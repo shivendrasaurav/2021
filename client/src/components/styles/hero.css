@@ -8,6 +8,7 @@
   margin: auto;
   position: relative;
   top: 6vh;
+  cursor: pointer;
 }
 
 .name_wrapper:hover {

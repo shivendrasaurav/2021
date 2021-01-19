@@ -26,6 +26,27 @@ function default_text(){
     document.getElementById("command").innerHTML = "SAMURAI &gt; ";
 }
 
+function change_cmd_text_yt() {
+    document.getElementById("command").innerHTML = "SAMURAI &gt; run yt TheCodeDrop";
+}
+
+function change_cmd_text_li() {
+    document.getElementById("command").innerHTML = "SAMURAI &gt; run li Shivendra Saurav";
+}
+
+function change_cmd_text_gh() {
+    document.getElementById("command").innerHTML = "SAMURAI &gt; run gh shivendrasaurav";
+}
+
+function change_cmd_text_tw() {
+    document.getElementById("command").innerHTML = "SAMURAI &gt; run tw @shivendrasaurav";
+}
+
+function change_cmd_text_ig() {
+    document.getElementById("command").innerHTML = "SAMURAI &gt; run ig @shivendrasaurav";
+}
+
+
 const Hero = () =>{
 
     useEffect(() => {
@@ -65,13 +86,13 @@ const Hero = () =>{
                     </div>
                 </a>
 
-                <div className="social_wrapper">
+                <div className="social_wrapper" onMouseLeave={default_text}>
 
-                    <a href="https://www.youtube.com/channel/UCnEIkvnbpbQyetPk_K9QNQg?confirm_subscribe=1"><img src={yt} alt="yt" /></a>
-                    <a href="https://www.linkedin.com/in/shivendra-saurav-80a8ba191/"><img src={li} alt="li" /></a>
-                    <a href="https://github.com/shivendrasaurav"><img src={gh} alt="gh" /></a>
-                    <a href="https://twitter.com/ShivendraSaurav"><img src={tw} alt="tw" /></a>
-                    <a href="https://www.instagram.com/shivendrasaurav/"><img src={ig} alt="ig" /></a>
+                    <a onMouseOver={change_cmd_text_yt} href="https://www.youtube.com/channel/UCnEIkvnbpbQyetPk_K9QNQg?confirm_subscribe=1"><img src={yt} alt="yt" /></a>
+                    <a onMouseOver={change_cmd_text_li} href="https://www.linkedin.com/in/shivendra-saurav-80a8ba191/"><img src={li} alt="li" /></a>
+                    <a onMouseOver={change_cmd_text_gh} href="https://github.com/shivendrasaurav"><img src={gh} alt="gh" /></a>
+                    <a onMouseOver={change_cmd_text_tw} href="https://twitter.com/ShivendraSaurav"><img src={tw} alt="tw" /></a>
+                    <a onMouseOver={change_cmd_text_ig} href="https://www.instagram.com/shivendrasaurav/"><img src={ig} alt="ig" /></a>
 
 
                 </div>
