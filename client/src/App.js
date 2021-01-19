@@ -1,26 +1,25 @@
 import React from 'react';
-import logo from './logo.svg';
+import {HashRouter as Router, Route, Switch} from "react-router-dom";
+import Home from "./components/HomeComp";
+import Apps from "./components/AppComp";
+import Skills from "./components/SkillTreeComp";
+import CMD from "./components/CMDComp";
 import './App.css';
+import './components/styles/main.css';
+import './components/styles/hero.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <Router>
+        <Switch>
+          <Route exact path="/" component={Home} />
+          <Route path="/home" component={Home} />
+          <Route path="/skills" component={Skills} />
+          <Route path="/apps" component={Apps} />
+        </Switch>
+        <CMD/>
+    </Router>
+    );
 }
 
 export default App;
