@@ -67,7 +67,7 @@ const Hero = () =>{
                 <NavLink className="herolink" to="/skills">
                     <div className="res_topic_wrapper" onMouseOver={change_cmd_text_4} onMouseLeave={default_text}>
                         <div className="res_topic">
-                            Skills
+                            Skillz
                         </div>
                     </div>
                 </NavLink>
