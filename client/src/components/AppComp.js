@@ -76,263 +76,265 @@ const Apps = () =>{
 
     return(
         <Fragment>
-            <section className="apps">
-                <h2 style={{fontSize: "6vh", fontFamily: "Apex MK2", color: "#1e1e1e"}}>Websites</h2><br/>
+            <div className="app_container">
+                <section className="drawer">
+                    <h2 style={{fontSize: "6vh", fontFamily: "Apex MK2", color: "#1e1e1e"}}>Websites</h2><br/>
 
-                <div className="app_wrapper" onMouseOver={change_cmd_text_8} onMouseLeave={default_text}>
-                    <div className="app">
-                        <div className="app_row">
-                            <img className="thumbnail" alt="fdweb" src={fdweb} />  
-                            <div className="app_name">
-                                <h3>Fluent Design</h3><h3>For Web</h3>
+                    <div className="app_wrapper" onMouseOver={change_cmd_text_8} onMouseLeave={default_text}>
+                        <div className="app">
+                            <div className="app_row">
+                                <img className="thumbnail" alt="fdweb" src={fdweb} />  
+                                <div className="app_name">
+                                    <h3>Fluent Design</h3><h3>For Web</h3>
+                                </div>
+                            </div>
+                            <hr/>
+                            <div className="app_row">
+                                <p>
+                                Fluent Design for Web is Open Source, Cross Platform, CSS Framework which is easy to use and very flexible in nature. It helps dvelopers create environments which are more accesible and engaging for users. Learn more about Fluent Design for Web by following this <a href="https://fluentdesignforweb.github.io/">link</a>.
+                                </p>                        
                             </div>
                         </div>
-                        <hr/>
-                        <div className="app_row">
-                            <p>
-                            Fluent Design for Web is Open Source, Cross Platform, CSS Framework which is easy to use and very flexible in nature. It helps dvelopers create environments which are more accesible and engaging for users. Learn more about Fluent Design for Web by following this <a href="https://fluentdesignforweb.github.io/">link</a>.
-                            </p>                        
-                        </div>
                     </div>
-                </div>
 
-                <div className="app_wrapper" onMouseOver={change_cmd_text_9} onMouseLeave={default_text}>
-                    <div className="app">
-                        <div className="app_row">
-                            <img className="thumbnail" alt="ted" src={ted} />  
-                            <div className="app_name">
-                                <h3>TEDx</h3><h3>REVAUniversity</h3>
+                    <div className="app_wrapper" onMouseOver={change_cmd_text_9} onMouseLeave={default_text}>
+                        <div className="app">
+                            <div className="app_row">
+                                <img className="thumbnail" alt="ted" src={ted} />  
+                                <div className="app_name">
+                                    <h3>TEDx</h3><h3>REVAUniversity</h3>
+                                </div>
+                            </div>
+                            <hr/>
+                            <div className="app_row">
+                                <p>
+                                    Hisab Kitab is an app for keeping track of credits, debits given to friends, families, and coworkers. It is easy to install and even easier to use. It doubles as Web App which measns you can use it without installing this app on your phone. Give it a try now using this <a href="https://hisabkitabapp.herokuapp.com/">link</a>.
+                                </p>                        
                             </div>
                         </div>
-                        <hr/>
-                        <div className="app_row">
-                            <p>
-                                Hisab Kitab is an app for keeping track of credits, debits given to friends, families, and coworkers. It is easy to install and even easier to use. It doubles as Web App which measns you can use it without installing this app on your phone. Give it a try now using this <a href="https://hisabkitabapp.herokuapp.com/">link</a>.
-                            </p>                        
-                        </div>
                     </div>
-                </div>
-                <div className="app_wrapper" onMouseOver={change_cmd_text_10} onMouseLeave={default_text}>
-                    <div className="app">
-                        <div className="app_row">
-                            <img className="thumbnail" alt="rh" src={rh} />  
-                            <div className="app_name">
-                                <h3>REVA HACK</h3><h3>&lt;/&gt; 2020</h3>
+                    <div className="app_wrapper" onMouseOver={change_cmd_text_10} onMouseLeave={default_text}>
+                        <div className="app">
+                            <div className="app_row">
+                                <img className="thumbnail" alt="rh" src={rh} />  
+                                <div className="app_name">
+                                    <h3>REVA HACK</h3><h3>&lt;/&gt; 2020</h3>
+                                </div>
+                            </div>
+                            <hr/>
+                            <div className="app_row">
+                                <p>
+                                    REVA HACK &lt;/&gt; 2020 is a student community-focused virtual Hackathon, with an aim of encouraging and providing a platform for students to showcase their talents and innovative ideas in developing projects through coding and using latest technologies. See REVA HACK &lt;/&gt; 2020 results using this <a href="https://revahack.com/">link</a>.
+                                </p>                        
                             </div>
                         </div>
-                        <hr/>
-                        <div className="app_row">
-                            <p>
-                                REVA HACK &lt;/&gt; 2020 is a student community-focused virtual Hackathon, with an aim of encouraging and providing a platform for students to showcase their talents and innovative ideas in developing projects through coding and using latest technologies. See REVA HACK &lt;/&gt; 2020 results using this <a href="https://revahack.com/">link</a>.
-                            </p>                        
-                        </div>
                     </div>
-                </div>
 
-                <br/>
-                
-                <div className="app_wrapper" onMouseOver={change_cmd_text_11} onMouseLeave={default_text}>
-                    <div className="app">
-                        <div className="app_row">
-                            <img className="thumbnail" alt="dsc" src={dsc} />  
-                            <div className="app_name">
-                                <h3>DSC</h3><h3>REVAUniversity</h3>
+                    <br/>
+                    
+                    <div className="app_wrapper" onMouseOver={change_cmd_text_11} onMouseLeave={default_text}>
+                        <div className="app">
+                            <div className="app_row">
+                                <img className="thumbnail" alt="dsc" src={dsc} />  
+                                <div className="app_name">
+                                    <h3>DSC</h3><h3>REVAUniversity</h3>
+                                </div>
+                            </div>
+                            <hr/>
+                            <div className="app_row">
+                                <p>
+                                    DSC REVA is a community group for students interested in Google developer technologies. Students from all undergraduate or graduate programs with an interest in growing as a developer are welcome. By joining a DSC, students grow their knowledge in a peer-to-peer learning environment and build solutions for local businesses and their community. Visit DSCREVA using this <a href="https://dscreva.com/">link</a>.
+                                </p>                        
                             </div>
                         </div>
-                        <hr/>
-                        <div className="app_row">
-                            <p>
-                                DSC REVA is a community group for students interested in Google developer technologies. Students from all undergraduate or graduate programs with an interest in growing as a developer are welcome. By joining a DSC, students grow their knowledge in a peer-to-peer learning environment and build solutions for local businesses and their community. Visit DSCREVA using this <a href="https://dscreva.com/">link</a>.
-                            </p>                        
-                        </div>
                     </div>
-                </div>
 
-                <div className="app_wrapper" onMouseOver={change_cmd_text_12} onMouseLeave={default_text}>
-                    <div className="app">
-                        <div className="app_row">
-                            <img className="thumbnail" alt="ss" src={ss} />  
-                            <div className="app_name">
-                                <h3>Strawsome</h3><h3>Shakes</h3>
+                    <div className="app_wrapper" onMouseOver={change_cmd_text_12} onMouseLeave={default_text}>
+                        <div className="app">
+                            <div className="app_row">
+                                <img className="thumbnail" alt="ss" src={ss} />  
+                                <div className="app_name">
+                                    <h3>Strawsome</h3><h3>Shakes</h3>
+                                </div>
+                            </div>
+                            <hr/>
+                            <div className="app_row">
+                                <p>
+                                    Strawsome Shakes is a website where users can create account and after that search and order food from nearby Locations. It's the best place to Find best Snacks and Shakes near you. *This is not a functional website just a static one to demonstrate how it will work. Don't order food as you won't receive it. But you can still checkout the website using this <a href="https://shivendrasaurav.github.io/StrawsomeShakes/">link</a>.
+                                </p>                        
                             </div>
                         </div>
-                        <hr/>
-                        <div className="app_row">
-                            <p>
-                                Strawsome Shakes is a website where users can create account and after that search and order food from nearby Locations. It's the best place to Find best Snacks and Shakes near you. *This is not a functional website just a static one to demonstrate how it will work. Don't order food as you won't receive it. But you can still checkout the website using this <a href="https://shivendrasaurav.github.io/StrawsomeShakes/">link</a>.
-                            </p>                        
-                        </div>
                     </div>
-                </div>
 
-                
+                    
 
-            </section>
+                </section>
 
 
-            <section className="apps">
-                <h2 style={{fontSize: "6vh", fontFamily: "Apex MK2", color: "#1e1e1e"}}>Apps</h2><br/>
+                <section className="drawer">
+                    <h2 style={{fontSize: "6vh", fontFamily: "Apex MK2", color: "#1e1e1e"}}>Apps</h2><br/>
 
-                <div className="app_wrapper" onMouseOver={change_cmd_text_1} onMouseLeave={default_text}>
-                    <div className="app">
-                        <div className="app_row">
-                            <img className="thumbnail" alt="cr" src={cr} />  
-                            <div className="app_name">
-                                <h3>Corona</h3><h3>Rakshak</h3>
+                    <div className="app_wrapper" onMouseOver={change_cmd_text_1} onMouseLeave={default_text}>
+                        <div className="app">
+                            <div className="app_row">
+                                <img className="thumbnail" alt="cr" src={cr} />  
+                                <div className="app_name">
+                                    <h3>Corona</h3><h3>Rakshak</h3>
+                                </div>
+                            </div>
+                            <hr/>
+                            <div className="app_row">
+                                <p>
+                                    Corona Rakshak is a Progressive Web App developed to help users maintain social distaning among each other. Also, it provides with helpful tips regarding how to be safe, live national level stats, and give a Social Distancing Score to the user. Install Corona Rakshak now using this <a href="https://shivendrasaurav.github.io/corona-rakshak/">link</a>.
+                                </p>                        
                             </div>
                         </div>
-                        <hr/>
-                        <div className="app_row">
-                            <p>
-                                Corona Rakshak is a Progressive Web App developed to help users maintain social distaning among each other. Also, it provides with helpful tips regarding how to be safe, live national level stats, and give a Social Distancing Score to the user. Install Corona Rakshak now using this <a href="https://shivendrasaurav.github.io/corona-rakshak/">link</a>.
-                            </p>                        
-                        </div>
                     </div>
-                </div>
 
-                <div className="app_wrapper" onMouseOver={change_cmd_text_2} onMouseLeave={default_text}>
-                    <div className="app">
-                        <div className="app_row">
-                            <img className="thumbnail" alt="hk" src={hk} />  
-                            <div className="app_name">
-                                <h3>Hisab</h3><h3>Kitab</h3>
+                    <div className="app_wrapper" onMouseOver={change_cmd_text_2} onMouseLeave={default_text}>
+                        <div className="app">
+                            <div className="app_row">
+                                <img className="thumbnail" alt="hk" src={hk} />  
+                                <div className="app_name">
+                                    <h3>Hisab</h3><h3>Kitab</h3>
+                                </div>
+                            </div>
+                            <hr/>
+                            <div className="app_row">
+                                <p>
+                                    Hisab Kitab is an app for keeping track of credits, debits given to friends, families, and coworkers. It is easy to install and even easier to use. It doubles as Web App which measns you can use it without installing this app on your phone. Give it a try now using this <a href="https://hisabkitabapp.herokuapp.com/">link</a>.
+                                </p>                        
                             </div>
                         </div>
-                        <hr/>
-                        <div className="app_row">
-                            <p>
-                                Hisab Kitab is an app for keeping track of credits, debits given to friends, families, and coworkers. It is easy to install and even easier to use. It doubles as Web App which measns you can use it without installing this app on your phone. Give it a try now using this <a href="https://hisabkitabapp.herokuapp.com/">link</a>.
-                            </p>                        
-                        </div>
                     </div>
-                </div>
-                <div className="app_wrapper" onMouseOver={change_cmd_text_3} onMouseLeave={default_text}>
-                    <div className="app">
-                        <div className="app_row">
-                            <img className="thumbnail" alt="rh" src={rh} />  
-                            <div className="app_name">
-                                <h3>REVA HACK</h3><h3>&lt;/&gt; 2020</h3>
+                    <div className="app_wrapper" onMouseOver={change_cmd_text_3} onMouseLeave={default_text}>
+                        <div className="app">
+                            <div className="app_row">
+                                <img className="thumbnail" alt="rh" src={rh} />  
+                                <div className="app_name">
+                                    <h3>REVA HACK</h3><h3>&lt;/&gt; 2020</h3>
+                                </div>
+                            </div>
+                            <hr/>
+                            <div className="app_row">
+                                <p>
+                                    REVA HACK &lt;/&gt; 2020 is a student community-focused virtual Hackathon, with an aim of encouraging and providing a platform for students to showcase their talents and innovative ideas in developing projects through coding and using latest technologies. See REVA HACK &lt;/&gt; 2020 results using this <a href="https://revahack.com/">link</a>.
+                                </p>                        
                             </div>
                         </div>
-                        <hr/>
-                        <div className="app_row">
-                            <p>
-                                REVA HACK &lt;/&gt; 2020 is a student community-focused virtual Hackathon, with an aim of encouraging and providing a platform for students to showcase their talents and innovative ideas in developing projects through coding and using latest technologies. See REVA HACK &lt;/&gt; 2020 results using this <a href="https://revahack.com/">link</a>.
-                            </p>                        
-                        </div>
                     </div>
-                </div>
 
-                <br/>
-                
-                <div className="app_wrapper" onMouseOver={change_cmd_text_4} onMouseLeave={default_text}>
-                    <div className="app">
-                        <div className="app_row">
-                            <img className="thumbnail" alt="tcdb" src={tcdb} />  
-                            <div className="app_name">
-                                <h3>The Code</h3><h3>Drop Box</h3>
+                    <br/>
+                    
+                    <div className="app_wrapper" onMouseOver={change_cmd_text_4} onMouseLeave={default_text}>
+                        <div className="app">
+                            <div className="app_row">
+                                <img className="thumbnail" alt="tcdb" src={tcdb} />  
+                                <div className="app_name">
+                                    <h3>The Code</h3><h3>Drop Box</h3>
+                                </div>
+                            </div>
+                            <hr/>
+                            <div className="app_row">
+                                <p>
+                                This is the official Progressive Web App for The Code Drop. You can find all the latest content from The Code Drop here on this app posted regularly. It can be installed by just clicking on the install button which it pormpts when you visit the website. Go on, give it a try and install the app from this <a href="https://shivendrasaurav.github.io/The-Code-Drop-Box/">link</a>.
+                                </p>                        
                             </div>
                         </div>
-                        <hr/>
-                        <div className="app_row">
-                            <p>
-                            This is the official Progressive Web App for The Code Drop. You can find all the latest content from The Code Drop here on this app posted regularly. It can be installed by just clicking on the install button which it pormpts when you visit the website. Go on, give it a try and install the app from this <a href="https://shivendrasaurav.github.io/The-Code-Drop-Box/">link</a>.
-                            </p>                        
-                        </div>
                     </div>
-                </div>
 
-                <div className="app_wrapper" onMouseOver={change_cmd_text_6} onMouseLeave={default_text}>
-                    <div className="app">
-                        <div className="app_row">
-                            <img className="thumbnail" alt="calc" src={calc} />  
-                            <div className="app_name">
-                                <h3>Calculator</h3>
+                    <div className="app_wrapper" onMouseOver={change_cmd_text_6} onMouseLeave={default_text}>
+                        <div className="app">
+                            <div className="app_row">
+                                <img className="thumbnail" alt="calc" src={calc} />  
+                                <div className="app_name">
+                                    <h3>Calculator</h3>
+                                </div>
+                            </div>
+                            <hr/>
+                            <div className="app_row">
+                                <p>
+                                    Built using Vanilla JS, this is a simple Calculator made using Fluent Design for Web. It is a Progressive Web App which can be installed this Calculator using this <a href="https://shivendrasaurav.github.io/calculator/">link</a>.
+                                </p>                        
                             </div>
                         </div>
-                        <hr/>
-                        <div className="app_row">
-                            <p>
-                                Built using Vanilla JS, this is a simple Calculator made using Fluent Design for Web. It is a Progressive Web App which can be installed this Calculator using this <a href="https://shivendrasaurav.github.io/calculator/">link</a>.
-                            </p>                        
-                        </div>
                     </div>
-                </div>
 
-                <div className="app_wrapper" onMouseOver={change_cmd_text_7} onMouseLeave={default_text}>
-                    <div className="app">
-                        <div className="app_row">
-                            <img className="thumbnail" alt="ttt" src={ttt} />  
-                            <div className="app_name">
-                                <h3>Tic Tac</h3><h3>Toe</h3>
+                    <div className="app_wrapper" onMouseOver={change_cmd_text_7} onMouseLeave={default_text}>
+                        <div className="app">
+                            <div className="app_row">
+                                <img className="thumbnail" alt="ttt" src={ttt} />  
+                                <div className="app_name">
+                                    <h3>Tic Tac</h3><h3>Toe</h3>
+                                </div>
+                            </div>
+                            <hr/>
+                            <div className="app_row">
+                                <p>
+                                    Built using Vanilla JS, this is a simple Tic Tac Toe Game made using Fluent Design for Web. You can either play Single Player (With CPU) or Multiplayer (With your friends). Also it is a Progressive Web App which can be installed this Calculator using this <a href="https://shivendrasaurav.github.io/Tic-Tac-Toe/">link</a>.
+                                </p>                        
                             </div>
                         </div>
-                        <hr/>
-                        <div className="app_row">
-                            <p>
-                                Built using Vanilla JS, this is a simple Tic Tac Toe Game made using Fluent Design for Web. You can either play Single Player (With CPU) or Multiplayer (With your friends). Also it is a Progressive Web App which can be installed this Calculator using this <a href="https://shivendrasaurav.github.io/Tic-Tac-Toe/">link</a>.
-                            </p>                        
-                        </div>
                     </div>
-                </div>
 
-            </section>
+                </section>
 
-            <section className="apps">
-                <h2 style={{fontSize: "6vh", fontFamily: "Apex MK2", color: "#1e1e1e"}}>Tools</h2><br/>
+                <section className="drawer">
+                    <h2 style={{fontSize: "6vh", fontFamily: "Apex MK2", color: "#1e1e1e"}}>Tools</h2><br/>
 
-                <div className="app_wrapper" onMouseOver={change_cmd_text_13} onMouseLeave={default_text}>
-                    <div className="app">
-                        <div className="app_row">
-                            <img className="thumbnail" alt="rbcg" src={rbcg} />  
-                            <div className="app_name">
-                                <h3>Random Background Color Generator</h3>
+                    <div className="app_wrapper" onMouseOver={change_cmd_text_13} onMouseLeave={default_text}>
+                        <div className="app">
+                            <div className="app_row">
+                                <img className="thumbnail" alt="rbcg" src={rbcg} />  
+                                <div className="app_name">
+                                    <h3>Random Background Color Generator</h3>
+                                </div>
+                            </div>
+                            <hr/>
+                            <div className="app_row">
+                                <p>
+                                    It generates three random r,g,b values between 0 and 255 and uses them to make a unique background everytime the page reloads, refreshes or when the button is clicked. See it in action using this <a href="https://shivendrasaurav.github.io/RBCG/">link</a>.
+                                </p>                        
                             </div>
                         </div>
-                        <hr/>
-                        <div className="app_row">
-                            <p>
-                                It generates three random r,g,b values between 0 and 255 and uses them to make a unique background everytime the page reloads, refreshes or when the button is clicked. See it in action using this <a href="https://shivendrasaurav.github.io/RBCG/">link</a>.
-                            </p>                        
-                        </div>
                     </div>
-                </div>
 
-                <div className="app_wrapper" onMouseOver={change_cmd_text_14} onMouseLeave={default_text}>
-                    <div className="app">
-                        <div className="app_row">
-                            <img className="thumbnail" alt="scrl" src={scrl} />  
-                            <div className="app_name">
-                                <h3>Scroll</h3><h3>Meter</h3>
+                    <div className="app_wrapper" onMouseOver={change_cmd_text_14} onMouseLeave={default_text}>
+                        <div className="app">
+                            <div className="app_row">
+                                <img className="thumbnail" alt="scrl" src={scrl} />  
+                                <div className="app_name">
+                                    <h3>Scroll</h3><h3>Meter</h3>
+                                </div>
+                            </div>
+                            <hr/>
+                            <div className="app_row">
+                                <p>
+                                    It's decades since we are using devices such as computers and laptops, browsing internet, typing and scrolling through pages. What if we get to know how much we have scrolled through pages per session and so? In this small project I have implemented a scroll meter which just tells how much meter you have scrolled through. See it in action using this <a href="https://shivendrasaurav.github.io/Scroll-Meter/">link</a>.
+                                </p>                        
                             </div>
                         </div>
-                        <hr/>
-                        <div className="app_row">
-                            <p>
-                                It's decades since we are using devices such as computers and laptops, browsing internet, typing and scrolling through pages. What if we get to know how much we have scrolled through pages per session and so? In this small project I have implemented a scroll meter which just tells how much meter you have scrolled through. See it in action using this <a href="https://shivendrasaurav.github.io/Scroll-Meter/">link</a>.
-                            </p>                        
-                        </div>
                     </div>
-                </div>
 
-                <div className="app_wrapper" onMouseOver={change_cmd_text_15} onMouseLeave={default_text}>
-                    <div className="app">
-                        <div className="app_row">
-                            <img className="thumbnail" alt="strm" src={strm} />  
-                            <div className="app_name">
-                                <h3>Stream</h3><h3>Placeholders</h3>
+                    <div className="app_wrapper" onMouseOver={change_cmd_text_15} onMouseLeave={default_text}>
+                        <div className="app">
+                            <div className="app_row">
+                                <img className="thumbnail" alt="strm" src={strm} />  
+                                <div className="app_name">
+                                    <h3>Stream</h3><h3>Placeholders</h3>
+                                </div>
+                            </div>
+                            <hr/>
+                            <div className="app_row">
+                                <p>
+                                    Stream Placeholders made using HTML + CSS. The required Placeholder can simply be opened by clicking on the link. No hassle of creating a scene, can be used with any streaming software.  See it in action using this <a href="https://shivendrasaurav.github.io/Stream_Placeholders/">link</a>.
+                                </p>                        
                             </div>
                         </div>
-                        <hr/>
-                        <div className="app_row">
-                            <p>
-                                Stream Placeholders made using HTML + CSS. The required Placeholder can simply be opened by clicking on the link. No hassle of creating a scene, can be used with any streaming software.  See it in action using this <a href="https://shivendrasaurav.github.io/Stream_Placeholders/">link</a>.
-                            </p>                        
-                        </div>
                     </div>
-                </div>
 
-            </section>
+                </section>
+            </div>
         </Fragment>
     );
 }

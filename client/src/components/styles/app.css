@@ -90,9 +90,14 @@
   line-height: 1.2;
 }
 
-.apps {
+.drawer {
   width: 80%;
   padding-left: 10%;
   margin-top: 100px;
+}
+
+.app_container {
+  overflow: hidden;
+  padding-bottom: 128px;
 }
 /*# sourceMappingURL=app.css.map */

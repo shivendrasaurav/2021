@@ -1,4 +1,5 @@
 import React, { Fragment, useEffect } from "react";
+import "./styles/skills.css";
 
 function default_text(){
     document.getElementById("command").innerHTML = "SAMURAI &gt; ";
