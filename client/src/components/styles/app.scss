@@ -1,7 +1,7 @@
 .app_wrapper{
     display: inline-flex;
     padding: 3px;
-    clip-path: polygon(0 0, 100% 0, 100% 85%, 70% 100%, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 90%, 85% 100%, 0 100%);
     width: 163px;
     height: 163px;
     background: #0e1e1eaa;
@@ -39,7 +39,7 @@
 
     .app{
         width: 100%;
-        clip-path: polygon(0 0, 100% 0, 100% 85%, 70% 100%, 0 100%);
+        clip-path: polygon(0 0, 100% 0, 100% 90%, 85% 100%, 0 100%);
         transition: 300ms;
 
         .app_row{
@@ -81,15 +81,7 @@
 }
 
 .apps{
-    width: 740px;
+    width: 80%;
     padding-left: 10%;
     margin-top: 100px;
-    display: inline-block;
-}
-.inverted{
-    transform: rotateZ(180deg);
-
-    *{
-        transform: rotateZ(180deg);
-    }
 }
