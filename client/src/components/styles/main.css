@@ -7,7 +7,7 @@
 body {
   width: 100%;
   padding: 0px;
-  background: #fcfcfc;
+  background: #fcec0c;
 }
 
 body h1 {
@@ -92,13 +92,14 @@ body::-webkit-scrollbar-thumb {
 
 .cmd {
   position: fixed;
-  bottom: 10px;
+  bottom: 0px;
   padding-left: 40px;
-  padding-bottom: 14px;
+  padding-bottom: 20px;
   background: #fcec0c;
 }
 
 .cmd pre {
   font-family: "Munro";
+  font-size: 18px;
 }
 /*# sourceMappingURL=main.css.map */

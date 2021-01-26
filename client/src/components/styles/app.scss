@@ -1,0 +1,95 @@
+.app_wrapper{
+    display: inline-flex;
+    padding: 3px;
+    clip-path: polygon(0 0, 100% 0, 100% 85%, 70% 100%, 0 100%);
+    width: 163px;
+    height: 163px;
+    background: #0e1e1eaa;
+    backdrop-filter: blur(10px) saturate(125%);
+    margin: 10px;
+    transition: 300ms;
+
+    &:hover{
+        width: 480px;
+        height: 480px;
+        background: #fcfcfcac;
+        transition: 300ms;
+
+        .app{
+            padding: 16px 20px;
+
+            .app_row{
+
+                img{
+                    width: 148px;
+                    transition: 300ms;
+                    box-shadow: 4px 4px 8px #acacac, -4px -4px 8px #ffffff;
+                }
+                .app_name{
+
+                    h3{
+                        color: #0e0e0e;
+                        font-size: 4.2vh;
+                        transition: 300ms;
+                    }    
+                }
+            }
+        }
+    }
+
+    .app{
+        width: 100%;
+        clip-path: polygon(0 0, 100% 0, 100% 85%, 70% 100%, 0 100%);
+        transition: 300ms;
+
+        .app_row{
+            display: block;
+            width: 100%;
+            
+            img{
+                width: 160px;
+                display: inline-block;
+                transition: 300ms;
+            }
+            .app_name{
+                width: 280px;
+                display: inline-block;
+                padding-left: 20px;
+                padding-bottom: 20px;
+
+                h3{
+                    color: transparent;
+                    font-size: 0;
+                    padding-bottom: 6px;
+                    line-height: 0.9;
+                    transition: 300ms;
+                    position: relative;
+                    top: -30px;
+                    font-family: "Vox";
+                }    
+            }
+            p{
+                font-size: 20px;
+                color: #0e0e0e;
+                text-align: justify;
+                padding-top: 6px;
+                font-family: "Vox";
+                line-height: 1.2;
+            }
+        }
+    }
+}
+
+.apps{
+    width: 740px;
+    padding-left: 10%;
+    margin-top: 100px;
+    display: inline-block;
+}
+.inverted{
+    transform: rotateZ(180deg);
+
+    *{
+        transform: rotateZ(180deg);
+    }
+}

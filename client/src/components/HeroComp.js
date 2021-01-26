@@ -7,7 +7,7 @@ import ig from "./static/social/instagram.png";
 import { NavLink } from "react-router-dom";
 
 function change_cmd_text_1(){
-    document.getElementById("command").innerHTML = "SAMURAI &gt; Shivendra Saurav";
+    document.getElementById("command").innerHTML = "SAMURAI &gt; zoom Shivendra Saurav";
 }
 
 function change_cmd_text_2(){
