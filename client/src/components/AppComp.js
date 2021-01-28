@@ -78,7 +78,7 @@ const Apps = () =>{
         <Fragment>
             <div className="app_container">
                 <section className="drawer">
-                    <h2 style={{fontSize: "6vh", fontFamily: "Apex MK2", color: "#1e1e1e"}}>Websites</h2><br/>
+                    <h2 style={{fontSize: "6vh", fontFamily: "Cyberpunk", color: "#1ecefe", textShadow: "1px 4px #1e1e1e"}}>Websites</h2><br/>
 
                     <div className="app_wrapper" onMouseOver={change_cmd_text_8} onMouseLeave={default_text}>
                         <div className="app">
@@ -172,7 +172,7 @@ const Apps = () =>{
 
 
                 <section className="drawer">
-                    <h2 style={{fontSize: "6vh", fontFamily: "Apex MK2", color: "#1e1e1e"}}>Apps</h2><br/>
+                <h2 style={{fontSize: "6vh", fontFamily: "Cyberpunk", color: "#fe1ece", textShadow: "1px 4px #1e1e1e"}}>Apps</h2><br/>
 
                     <div className="app_wrapper" onMouseOver={change_cmd_text_1} onMouseLeave={default_text}>
                         <div className="app">
@@ -280,7 +280,7 @@ const Apps = () =>{
                 </section>
 
                 <section className="drawer">
-                    <h2 style={{fontSize: "6vh", fontFamily: "Apex MK2", color: "#1e1e1e"}}>Tools</h2><br/>
+                <h2 style={{fontSize: "6vh", fontFamily: "Cyberpunk", color: "#1ecece", textShadow: "1px 4px #1e1e1e"}}>Tools</h2><br/>
 
                     <div className="app_wrapper" onMouseOver={change_cmd_text_13} onMouseLeave={default_text}>
                         <div className="app">
