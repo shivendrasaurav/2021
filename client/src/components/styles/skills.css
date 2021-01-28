@@ -3,4 +3,53 @@
   padding-left: 10%;
   margin-top: 100px;
 }
+
+table {
+  border: 1px solid #1e1e1e;
+}
+
+table tr {
+  height: 40px;
+}
+
+table tr td {
+  width: 160px;
+}
+
+table tr td img {
+  width: 60px;
+  border-radius: 50%;
+  display: block;
+  margin: auto;
+}
+
+table tr td span {
+  background: #fcfcec;
+  -webkit-box-shadow: 4px 4px 8px #acacacac;
+          box-shadow: 4px 4px 8px #acacacac;
+  padding: 12px 10px;
+  position: absolute;
+  border-radius: 6px;
+  display: none;
+  -webkit-transition: 300ms;
+  transition: 300ms;
+  width: 240px;
+  z-index: 4;
+  margin: 6px;
+}
+
+table tr td span strong {
+  font-size: 19px;
+}
+
+table tr td:hover span {
+  display: block;
+  -webkit-transition: 300ms;
+  transition: 300ms;
+}
+
+table tr td .locked {
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+}
 /*# sourceMappingURL=skills.css.map */
