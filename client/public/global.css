@@ -1,7 +1,7 @@
 @font-face {
 	font-family: 'Cyberpunk';
 	font-style: normal;
-	src: local('Cyberpunk'), url('./fonts/Cyberpunk.otf') format('otf');
+	src: local('Cyberpunk'), url('./fonts/VoxRound.ttf') format('otf');
 }
 
 @font-face {

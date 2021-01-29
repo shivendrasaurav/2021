@@ -59,25 +59,25 @@ const Skills = () =>{
         <Fragment>
             <section class="drawer">
                 <svg style={{height: "100%", width: "100%", zIndex: "-10", position: "absolute"}}>
-                    <line x1="42.5%" y1="68%" x2="20%" y2="68%" style={{stroke: "rgb(0,0,0)", strokeWidth:"2", zIndex: "-10"}} />
-                    <line x1="42.5%" y1="68%" x2="65%" y2="68%" style={{stroke: "rgb(0,0,0)", strokeWidth:"2", zIndex: "-10"}} />
-                    <line x1="42.5%" y1="50%" x2="42.5%" y2="60%" style={{stroke: "rgb(0,0,0)", strokeWidth:"2", zIndex: "-10"}} />
-                    <line x1="42.5%" y1="95%" x2="42.5%" y2="60%" style={{stroke: "rgb(0,0,0)", strokeWidth:"2", zIndex: "-10"}} />
+                    <line x1="42.5%" y1="68%" x2="20%" y2="68%" style={{stroke: "rgb(5,217,232)", strokeWidth:"2", zIndex: "-10"}} />
+                    <line x1="42.5%" y1="68%" x2="65%" y2="68%" style={{stroke: "rgb(5,217,232)", strokeWidth:"2", zIndex: "-10"}} />
+                    <line x1="42.5%" y1="50%" x2="42.5%" y2="60%" style={{stroke: "rgb(5,217,232)", strokeWidth:"2", zIndex: "-10"}} />
+                    <line x1="42.5%" y1="95%" x2="42.5%" y2="60%" style={{stroke: "rgb(5,217,232)", strokeWidth:"2", zIndex: "-10"}} />
 
-                    <line x1="48%" y1="45%" x2="42.5%" y2="55%" style={{stroke: "rgb(0,0,0)", strokeWidth:"2", zIndex: "-10"}} />
-                    <line x1="38%" y1="45%" x2="42.5%" y2="55%" style={{stroke: "rgb(0,0,0)", strokeWidth:"2", zIndex: "-10"}} />
-                    <line x1="48%" y1="45%" x2="42.5%" y2="38%" style={{stroke: "rgb(0,0,0)", strokeWidth:"2", zIndex: "-10"}} />
-                    <line x1="38%" y1="45%" x2="42.5%" y2="38%" style={{stroke: "rgb(0,0,0)", strokeWidth:"2", zIndex: "-10"}} />
+                    <line x1="48%" y1="45%" x2="42.5%" y2="55%" style={{stroke: "rgb(5,217,232)", strokeWidth:"2", zIndex: "-10"}} />
+                    <line x1="38%" y1="45%" x2="42.5%" y2="55%" style={{stroke: "rgb(5,217,232)", strokeWidth:"2", zIndex: "-10"}} />
+                    <line x1="48%" y1="45%" x2="42.5%" y2="38%" style={{stroke: "rgb(5,217,232)", strokeWidth:"2", zIndex: "-10"}} />
+                    <line x1="38%" y1="45%" x2="42.5%" y2="38%" style={{stroke: "rgb(5,217,232)", strokeWidth:"2", zIndex: "-10"}} />
 
-                    <line x1="48%" y1="45%" x2="68%" y2="38%" style={{stroke: "rgb(0,0,0)", strokeWidth:"2", zIndex: "-10"}} />
-                    <line x1="38%" y1="45%" x2="25%" y2="38%" style={{stroke: "rgb(0,0,0)", strokeWidth:"2", zIndex: "-10"}} />
-                    <line x1="38%" y1="47%" x2="12.5%" y2="40%" style={{stroke: "rgb(0,0,0)", strokeWidth:"2", zIndex: "-10"}} />
+                    <line x1="48%" y1="45%" x2="68%" y2="38%" style={{stroke: "rgb(5,217,232)", strokeWidth:"2", zIndex: "-10"}} />
+                    <line x1="38%" y1="45%" x2="25%" y2="38%" style={{stroke: "rgb(5,217,232)", strokeWidth:"2", zIndex: "-10"}} />
+                    <line x1="38%" y1="47%" x2="12.5%" y2="40%" style={{stroke: "rgb(5,217,232)", strokeWidth:"2", zIndex: "-10"}} />
 
-                    <line x1="13%" y1="60%" x2="20%" y2="70%" style={{stroke: "rgb(0,0,0)", strokeWidth:"2", zIndex: "-10"}} />
-                    <line x1="13%" y1="80%" x2="20%" y2="70%" style={{stroke: "rgb(0,0,0)", strokeWidth:"2", zIndex: "-10"}} />
+                    <line x1="13%" y1="58%" x2="20%" y2="68%" style={{stroke: "rgb(5,217,232)", strokeWidth:"2", zIndex: "-10"}} />
+                    <line x1="13%" y1="78%" x2="20%" y2="68%" style={{stroke: "rgb(5,217,232)", strokeWidth:"2", zIndex: "-10"}} />
 
-                    <line x1="42.5%" y1="95%" x2="38%" y2="100%" style={{stroke: "rgb(0,0,0)", strokeWidth:"2", zIndex: "-10"}} />
-                    <line x1="42.5%" y1="95%" x2="48%" y2="100%" style={{stroke: "rgb(0,0,0)", strokeWidth:"2", zIndex: "-10"}} />
+                    <line x1="42.5%" y1="95%" x2="38%" y2="100%" style={{stroke: "rgb(5,217,232)", strokeWidth:"2", zIndex: "-10"}} />
+                    <line x1="42.5%" y1="95%" x2="48%" y2="100%" style={{stroke: "rgb(5,217,232)", strokeWidth:"2", zIndex: "-10"}} />
 
                 </svg>
 
