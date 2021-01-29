@@ -14,10 +14,19 @@ table tr {
 
 table tr td {
   width: 160px;
+  text-align: center;
+  color: transparent;
 }
 
 table tr td img {
   width: 60px;
+  border-radius: 50%;
+  display: block;
+  margin: auto;
+}
+
+table tr td .leaf {
+  width: 48px;
   border-radius: 50%;
   display: block;
   margin: auto;
@@ -36,6 +45,8 @@ table tr td span {
   width: 240px;
   z-index: 4;
   margin: 6px;
+  text-align: left;
+  color: #1e1e1e;
 }
 
 table tr td span strong {
