@@ -121,7 +121,7 @@
 .res_topic_wrapper {
   width: 20vw;
   padding: 5px;
-  background: #78fcff;
+  background: #fe1ece;
   -webkit-clip-path: polygon(0% 20%, 100% 0%, 100% 0%, 100% 100%, 0% 100%);
           clip-path: polygon(0% 20%, 100% 0%, 100% 0%, 100% 100%, 0% 100%);
   display: block;
@@ -138,7 +138,7 @@
 .res_topic {
   font-size: 4vh;
   font-family: "Cyberpunk";
-  color: #05d9e8;
+  color: #fe1ece;
   background: #01012b;
   text-shadow: #fcfcfc 1px 1px;
   width: 100%;
@@ -151,7 +151,7 @@
 }
 
 .res_topic:hover {
-  background: #78fcff;
+  background: #ff3ece;
   color: #fcfcfc;
   text-shadow: #005678 1px 4px;
   -webkit-transition: 300ms;
