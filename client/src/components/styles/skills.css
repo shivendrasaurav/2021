@@ -4,16 +4,12 @@
   margin-top: 100px;
 }
 
-table {
-  border: 1px solid #1e1e1e;
-}
-
 table tr {
   height: 40px;
 }
 
 table tr td {
-  width: 160px;
+  min-width: 100px;
   text-align: center;
   color: transparent;
 }

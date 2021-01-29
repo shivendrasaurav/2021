@@ -19,7 +19,7 @@ function change_cmd_text_3(){
 }
 
 function change_cmd_text_4(){
-    document.getElementById("command").innerHTML = "SAMURAI &gt; fetch skill_tree";
+    document.getElementById("command").innerHTML = "SAMURAI &gt; generate skill_tree";
 }
 
 function default_text(){

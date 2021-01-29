@@ -16,7 +16,6 @@ body h1 {
 
 body section#hero {
   width: 100%;
-  background: #fcec0c;
   height: 100vh;
 }
 
@@ -73,15 +72,11 @@ body section#loader pre .same_space {
 }
 
 body::-webkit-scrollbar {
-  border-radius: 7px;
-  display: block;
-  height: 22px;
-  background: #fcec0c;
+  display: none;
 }
 
 body::-webkit-scrollbar-thumb {
-  border-radius: 7px;
-  background: #fcec0c;
+  display: none;
 }
 
 @media (min-width: 640px) and (max-width: 1024px) {
