@@ -26,7 +26,8 @@ table{
                 margin: auto;
             }
             span{
-                background: #fcfcec;
+                background: #fcfcecac;
+                backdrop-filter: blur(10px);
                 box-shadow: 4px 4px 12px #aeaeae8e, -4px -4px 12px #0e0e0e;
                 padding: 12px 10px;
                 position: absolute;

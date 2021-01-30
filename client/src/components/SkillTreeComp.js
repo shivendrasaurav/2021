@@ -59,24 +59,36 @@ const Skills = () =>{
         <Fragment>
             <section class="drawer">
                 <svg style={{height: "100%", width: "100%", zIndex: "-10", position: "absolute"}}>
-                    <line x1="42.5%" y1="68%" x2="20%" y2="68%" style={{stroke: "rgb(5,217,232)", strokeWidth:"2", zIndex: "-10"}} />
+
+                    <line x1="42.5%" y1="68%" x2="20%" y2="68%" style={{stroke: "rgb(5,217,232)", strokeWidth:"2", zIndex: "-10"}} alt="middle cross" />
                     <line x1="42.5%" y1="68%" x2="65%" y2="68%" style={{stroke: "rgb(5,217,232)", strokeWidth:"2", zIndex: "-10"}} />
                     <line x1="42.5%" y1="50%" x2="42.5%" y2="60%" style={{stroke: "rgb(5,217,232)", strokeWidth:"2", zIndex: "-10"}} />
                     <line x1="42.5%" y1="95%" x2="42.5%" y2="60%" style={{stroke: "rgb(5,217,232)", strokeWidth:"2", zIndex: "-10"}} />
 
-                    <line x1="48%" y1="45%" x2="42.5%" y2="55%" style={{stroke: "rgb(5,217,232)", strokeWidth:"2", zIndex: "-10"}} />
+                    <line x1="48%" y1="45%" x2="42.5%" y2="55%" style={{stroke: "rgb(5,217,232)", strokeWidth:"2", zIndex: "-10"}} alt="full stack + parts" />
                     <line x1="38%" y1="45%" x2="42.5%" y2="55%" style={{stroke: "rgb(5,217,232)", strokeWidth:"2", zIndex: "-10"}} />
                     <line x1="48%" y1="45%" x2="42.5%" y2="38%" style={{stroke: "rgb(5,217,232)", strokeWidth:"2", zIndex: "-10"}} />
                     <line x1="38%" y1="45%" x2="42.5%" y2="38%" style={{stroke: "rgb(5,217,232)", strokeWidth:"2", zIndex: "-10"}} />
 
-                    <line x1="48%" y1="45%" x2="68%" y2="38%" style={{stroke: "rgb(5,217,232)", strokeWidth:"2", zIndex: "-10"}} />
+                    <line x1="34%" y1="32%" x2="42.5%" y2="38%" style={{stroke: "rgb(5,217,232)", strokeWidth:"2", zIndex: "-10"}} alt="js parts" />
+                    <line x1="40%" y1="32%" x2="42.5%" y2="38%" style={{stroke: "rgb(5,217,232)", strokeWidth:"2", zIndex: "-10"}} />
+                    <line x1="45%" y1="32%" x2="42.5%" y2="38%" style={{stroke: "rgb(5,217,232)", strokeWidth:"2", zIndex: "-10"}} />
+                    <line x1="50%" y1="32%" x2="42.5%" y2="38%" style={{stroke: "rgb(5,217,232)", strokeWidth:"2", zIndex: "-10"}} />
+
+                    <line x1="48%" y1="45%" x2="68%" y2="38%" style={{stroke: "rgb(5,217,232)", strokeWidth:"2", zIndex: "-10"}} alt="html + css + dbms" />
                     <line x1="38%" y1="45%" x2="25%" y2="38%" style={{stroke: "rgb(5,217,232)", strokeWidth:"2", zIndex: "-10"}} />
                     <line x1="38%" y1="47%" x2="12.5%" y2="40%" style={{stroke: "rgb(5,217,232)", strokeWidth:"2", zIndex: "-10"}} />
 
-                    <line x1="13%" y1="58%" x2="20%" y2="68%" style={{stroke: "rgb(5,217,232)", strokeWidth:"2", zIndex: "-10"}} />
+                    <line x1="60%" y1="30%" x2="67%" y2="38%" style={{stroke: "rgb(5,217,232)", strokeWidth:"2", zIndex: "-10"}} alt="sql parts" />
+                    <line x1="72%" y1="30%" x2="66%" y2="38%" style={{stroke: "rgb(5,217,232)", strokeWidth:"2", zIndex: "-10"}} />
+
+                    <line x1="13%" y1="58%" x2="20%" y2="68%" style={{stroke: "rgb(5,217,232)", strokeWidth:"2", zIndex: "-10"}} alt="ndk parts" />
                     <line x1="13%" y1="78%" x2="20%" y2="68%" style={{stroke: "rgb(5,217,232)", strokeWidth:"2", zIndex: "-10"}} />
 
-                    <line x1="42.5%" y1="95%" x2="38%" y2="100%" style={{stroke: "rgb(5,217,232)", strokeWidth:"2", zIndex: "-10"}} />
+                    <line x1="13%" y1="58%" x2="8%" y2="52%" style={{stroke: "rgb(5,217,232)", strokeWidth:"2", zIndex: "-10"}} alt="android parts" />
+                    <line x1="13%" y1="58%" x2="8%" y2="68%" style={{stroke: "rgb(5,217,232)", strokeWidth:"2", zIndex: "-10"}} />
+
+                    <line x1="42.5%" y1="95%" x2="38%" y2="100%" style={{stroke: "rgb(5,217,232)", strokeWidth:"2", zIndex: "-10"}} alt="uiux parts" />
                     <line x1="42.5%" y1="95%" x2="48%" y2="100%" style={{stroke: "rgb(5,217,232)", strokeWidth:"2", zIndex: "-10"}} />
 
                 </svg>

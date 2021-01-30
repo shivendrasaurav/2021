@@ -29,7 +29,9 @@ table tr td .leaf {
 }
 
 table tr td span {
-  background: #fcfcec;
+  background: #fcfcecac;
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
   -webkit-box-shadow: 4px 4px 12px #aeaeae8e, -4px -4px 12px #0e0e0e;
           box-shadow: 4px 4px 12px #aeaeae8e, -4px -4px 12px #0e0e0e;
   padding: 12px 10px;

@@ -6,6 +6,7 @@ import tw from "./static/social/twitter.png";
 import ig from "./static/social/instagram.png";
 import { NavLink } from "react-router-dom";
 
+
 function change_cmd_text_1(){
     document.getElementById("command").innerHTML = "SAMURAI &gt; zoom Shivendra Saurav";
 }
@@ -56,21 +57,21 @@ const Hero = () =>{
     return(
         <Fragment>
             <section id="hero">
-                <NavLink className="herolink" to="/apps">
-                    <div className="project_topic_wrapper" onMouseOver={change_cmd_text_2} onMouseLeave={default_text}>
+                <div className="project_topic_wrapper" onMouseOver={change_cmd_text_2} onMouseLeave={default_text}>
+                    <NavLink className="herolink" to="/apps">
                         <div className="project_topic">
                             Projekts
                         </div>
-                    </div>
-                </NavLink>
+                    </NavLink>
+                </div>
 
-                <NavLink className="herolink" to="/skills">
-                    <div className="res_topic_wrapper" onMouseOver={change_cmd_text_4} onMouseLeave={default_text}>
+                <div className="res_topic_wrapper" onMouseOver={change_cmd_text_4} onMouseLeave={default_text}>
+                    <NavLink className="herolink" to="/skills">
                         <div className="res_topic">
                             Skillz
                         </div>
-                    </div>
-                </NavLink>
+                    </NavLink>
+                </div>
 
                 <div className="name_wrapper" onMouseOver={change_cmd_text_1} onMouseLeave={default_text}>
                     <div className="name">
@@ -78,13 +79,13 @@ const Hero = () =>{
                     </div>
                 </div>
 
-                <a target="blank" className="herolink" href="https://www.youtube.com/channel/UCnEIkvnbpbQyetPk_K9QNQg?confirm_subscribe=1">
-                    <div className="yt_topic_wrapper" onMouseOver={change_cmd_text_3} onMouseLeave={default_text}>
+                <div className="yt_topic_wrapper" onMouseOver={change_cmd_text_3} onMouseLeave={default_text}>
+                    <a target="blank" className="herolink" href="https://www.youtube.com/channel/UCnEIkvnbpbQyetPk_K9QNQg?confirm_subscribe=1">
                         <div className="yt_topic">
                             YouTube
                         </div>
-                    </div>
-                </a>
+                    </a>
+                </div>
 
                 <div className="social_wrapper" onMouseLeave={default_text}>
 
