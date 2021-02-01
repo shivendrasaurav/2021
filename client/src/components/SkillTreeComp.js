@@ -58,7 +58,7 @@ const Skills = () =>{
     return(
         <Fragment>
             <section class="drawer">
-                <svg style={{height: "100%", width: "100%", zIndex: "-10", position: "absolute"}}>
+                <svg style={{height: "100%", width: "100%", zIndex: "-10", position: "absolute", display: "none"}}>
 
                     <line x1="42.5%" y1="68%" x2="20%" y2="68%" style={{stroke: "rgb(5,217,232)", strokeWidth:"2", zIndex: "-10"}} alt="middle cross" />
                     <line x1="42.5%" y1="68%" x2="65%" y2="68%" style={{stroke: "rgb(5,217,232)", strokeWidth:"2", zIndex: "-10"}} />
@@ -247,8 +247,8 @@ const Skills = () =>{
                     <tr>
                         <td>.</td>
                         <td>
-                            <img src={rn} className="leaf" alt="rn"/>
-                            <span><strong>React Native</strong><br/>Works similar to react, uses views and other objects to write native code</span>
+                            <img src={and} className="leaf" alt="and"/>
+                            <span><strong>Android</strong><br/>Ability to develop native apps for Android</span>
                         </td>
                         <td colspan="4">.</td>
                         <td colspan="4">
@@ -260,15 +260,15 @@ const Skills = () =>{
                         <td>.</td>
                         <td>.</td>
                         <td colspan="1">
-                            <img src={and} alt="and"/>
-                            <span><strong>Android</strong><br/>Ability to develop native apps for Android</span>
+                            <img src={rn} alt="rn"/>
+                            <span><strong>React Native</strong><br/>Works similar to react, uses views and other objects to write native code</span>
                         </td>
                     </tr>
                     <tr>
                         <td>.</td>
                         <td>
-                            <img src={locked} class="locked leaf" alt="flutter"/>
-                            <span><strong>Locked</strong><br/>Unlocked by completing achievement "make it fly"</span>
+                            <img src={locked} className="locked leaf" alt="ios"/>
+                            <span><strong>Locked</strong><br/>Unlocked by completing achievement "bought an apple"</span>
                         </td>
                         <td>.</td>
                         <td colspan="2">
@@ -290,8 +290,8 @@ const Skills = () =>{
                         <td>.</td>
                         <td>.</td>
                         <td colspan="1">
-                            <img src={locked} className="locked" alt="ios"/>
-                            <span><strong>Locked</strong><br/>Unlocked by completing achievement "bought an apple"</span>
+                            <img src={locked} class="locked" alt="flutter"/>
+                            <span><strong>Locked</strong><br/>Unlocked by completing achievement "make it fly"</span>
                         </td>
                     </tr>
                     <tr>
