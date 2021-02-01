@@ -1,18 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow&display=swap');
 .app_wrapper{
     display: inline-flex;
     padding: 3px;
     clip-path: polygon(0 0, 100% 0, 100% 90%, 85% 100%, 0 100%);
     width: 163px;
     height: 163px;
-    background: #ffffffaa;
+    background: #ffffff66;
     backdrop-filter: blur(10px) saturate(125%);
     margin: 10px;
     transition: 300ms;
+    overflow: hidden;
 
     &:hover{
         width: 480px;
         height: 480px;
-        background: #fcfcfccc;
+        background: #fcfcfc;
         transition: 300ms;
 
         .app{
@@ -29,8 +31,10 @@
 
                     h3{
                         color: #0e0e0e;
-                        font-size: 4.2vh;
+                        font-size: 3.2vh;
                         transition: 300ms;
+                        position: relative;
+                        top: -80px;
                     }    
                 }
             }
@@ -42,6 +46,14 @@
         clip-path: polygon(0 0, 100% 0, 100% 90%, 85% 100%, 0 100%);
         transition: 300ms;
 
+        
+        hr{
+            margin: 10px 0px;
+            width: 90%;
+            border: none;
+            background: #01012b;
+            height: 1.25px;
+        }
         .app_row{
             display: block;
             width: 100%;
@@ -52,28 +64,24 @@
                 transition: 300ms;
             }
             .app_name{
-                width: 280px;
+                padding-left: 10px;
                 display: inline-block;
-                padding-left: 20px;
-                padding-bottom: 20px;
 
                 h3{
                     color: transparent;
-                    font-size: 0;
                     padding-bottom: 6px;
                     line-height: 0.9;
                     transition: 300ms;
                     position: relative;
-                    top: -30px;
-                    font-family: "Vox";
+                    font-family: "Barlow";
                 }    
             }
             p{
                 font-size: 20px;
                 color: #0e0e0e;
                 text-align: justify;
-                padding-top: 6px;
-                font-family: "Vox";
+                padding-top: 10px;
+                font-family: "Barlow";
                 line-height: 1.2;
             }
         }
@@ -87,5 +95,5 @@
 }
 .app_container{
     overflow: hidden;
-    padding-bottom: 128px;
+    padding-bottom: 384px;
 }

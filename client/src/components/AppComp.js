@@ -108,7 +108,11 @@ const Apps = () =>{
                             <hr/>
                             <div className="app_row">
                                 <p>
-                                    Hisab Kitab is an app for keeping track of credits, debits given to friends, families, and coworkers. It is easy to install and even easier to use. It doubles as Web App which measns you can use it without installing this app on your phone. Give it a try now using this <a href="https://hisabkitabapp.herokuapp.com/">link</a>.
+                                    TEDxREVAUniversity is an independently organised TED event. This event is an collective endeavour 
+                                    of students from different schools of REVA University. The aim of this event is to share great 
+                                    stories and diversified ideas with our community of 10,000+ students, faculties, and staff in 
+                                    order to inspire them to innovate and bring the change they want to see in the world.
+                                    Visit <a href="http://tedxrevauniversity.com/" target="blank">TEDxREVAUniversity</a> to know more.
                                 </p>                        
                             </div>
                         </div>
@@ -248,7 +252,7 @@ const Apps = () =>{
                             <div className="app_row">
                                 <img className="thumbnail" alt="calc" src={calc} />  
                                 <div className="app_name">
-                                    <h3>Calculator</h3>
+                                    <h3>Calculator</h3><h3>&nbsp;</h3>
                                 </div>
                             </div>
                             <hr/>
@@ -287,7 +291,7 @@ const Apps = () =>{
                             <div className="app_row">
                                 <img className="thumbnail" alt="rbcg" src={rbcg} />  
                                 <div className="app_name">
-                                    <h3>Random Background Color Generator</h3>
+                                    <h3>Random Background</h3><h3>Color Generator</h3>
                                 </div>
                             </div>
                             <hr/>
@@ -332,7 +336,7 @@ const Apps = () =>{
                             </div>
                         </div>
                     </div>
-
+                
                 </section>
             </div>
         </Fragment>
